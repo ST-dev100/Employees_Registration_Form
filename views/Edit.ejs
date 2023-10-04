@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="/edit/<%=use._id%>">
+        <label>Full Name</label>
+        <input type="text" name="fn" value="<%=use.firstName %> <%=use.MiddleName %> <%=use.LastName %>"/><br><br>
+        <label style="text-align:left">Sex</label>
+        <label>Male</label>
+        <input type="radio" name="sex" value="<%=use.gender %>">
+        <label>Female</label>
+        <input type="radio" name="sex" value="<%=use.gender %>"><br><br>
+        <label>Email</label>
+        <input type="email" name="email" value="<%=use.email %>"/><br><br>
+        <label>City</label>
+        <input type="text" name="city" value="<%=use.city %>"/>
+        <br><br>
+        <button type="submit">Update</button> 
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

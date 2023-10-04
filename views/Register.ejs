@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registered</h2>
+    <ul>
+        <% if(emp.length>0){%>
+        <% emp.forEach(function(mascot) { %>
+          <li>
+            <strong><%= mascot.firstName %></strong>
+            representing <%= mascot.city %>,
+            born <%= mascot.email %>
+          </li>
+        <% }); %>
+        <%}%>
+      </ul>
+    <button onclick="revrse()">Back</button>
+    <script>
+        function revrse()
+        {
+            history.back();
+        }
+    </script>
+</body>
+</html>
