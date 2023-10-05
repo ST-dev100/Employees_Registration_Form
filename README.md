@@ -1,16 +1,17 @@
 # <u>Employees Registration Web Application</u>
-   ## Basic Web Technologies
+   ## :point_right: Basic Web Technologies
 * [Embeded Javascript Template](#EJS)
 * [Express js ](#Express_js)
 * [Mongo Database](#Mongo)
    - [mongoose](#mongoose)
+   # [The User Interface of the Application](#UI)
 
 
 <br>
 <br>
 
 
-## EJS(Embeded Javascript Templete)
+## EJS
  *EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. No religiousness about how to organize things. No reinvention of iteration and control-flow. It's just plain JavaScript.* 
    
    <div style="color:green;font-weight:900;font-size:30px"> INSTALLATION</div>
@@ -45,3 +46,10 @@ Connect to the MongoDB Database
 ```
 mongoose.connect('mongodb://127.0.0.1:27017/myapp');
 ```
+## UI
+![This is an alt text.](app.png)
+***
+ Author <br>
+:man_technologist: Simon Tamene
+<br>
+:telephone_receiver:0936635133
