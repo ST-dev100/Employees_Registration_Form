@@ -13,7 +13,7 @@ router.post('/',EList);
 router.get('/:id',Delete)
 router.get('/edit/:id',Edit)
 router.post('/edit/:id',async(req,res)=>{
-    const FML = req.body.fn;
+    const FML = req.body.fn;    
 
     Emp.findOneAndUpdate({_id:req.params.id},
         {firstName:FML.split(' ')[0],MiddleName:FML.split(' ')[1],
